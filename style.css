@@ -1,0 +1,149 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #540002;
+    background-color: #ECE5C7;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #3d212f;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+p {
+    padding: 10px;
+}
+
+pre {
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    border-bottom: #CDC2AE solid 1px;
+    padding-bottom: 4px;
+}
+
+.header{
+    background-color: #C2DED1;
+    border-bottom: #CDC2AE solid 10px;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+
+}
+.nav-item {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    padding: 10px;
+}
+
+.main-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 100%;
+}
+
+main {
+    max-width: 1440px;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin: 10px 2% auto 2%;
+    padding: 10px 2%;
+}
+.main-section {
+    width: calc(50% - 30px);
+    border: #CDC2AE solid 5px;
+    background-color: #FFF7E9;
+    margin: 5px;
+    padding: 5px;
+}
+
+#avatar {
+
+}
+
+#name {
+    padding: 10px;
+    border-bottom: #CDC2AE solid 1px;
+}
+
+#job {
+
+}
+
+#text-profile {
+    align-self: flex-end;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.main-link {
+    color: #1746a2;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+#profile {
+    border-bottom: #CDC2AE solid 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#summary {
+    align-self: center;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #354259;
+}
+
+.logo {
+    width: 121px;
+    height: 45px;
+    display: list-item;
+    background-image: url("https://rs.school/images/rs_school_js.svg");
+    align-self: center;
+    list-style: none;
+    margin-right: 10px;
+}
+
+#footer-info {
+    align-self: center;
+    font-size: 1em;
+    color: white;
+}
+
+#github-footer {
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+
+
