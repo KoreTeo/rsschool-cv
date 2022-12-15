@@ -2,12 +2,101 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <title>CV</title>
+  <link rel="icon" href="assets/favicon.png">
+  <meta name="description" content="CV of Simbirtsev Sergey">
+  <meta name="author" content="Sergey Simbirtsev">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <script src="js/scripts.js"></script>
+  <header class="header">
+    <nav>
+      <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#code">Code</a></li>
+        <li class="nav-item"><a class="nav-link" href="#english">English</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="main-section" id="profile">
+      <div id="avatar">
+        <img class="avatar" src="assets/avatar.png" alt="avatar" width="200" height="200">
+      </div>
+      <div id="text-profile">
+        <h1 id="name">Sergey Simbirtsev</h1>
+        <h3 id="job">Novice Frontend Developer</h3>
+      </div>
+    </section>
+    <section class="main-section" id="summary">
+      <h2>Summary</h2>
+      <p>I am student of Siberian Federal University, majoring in Applied Informatics and training profile of “Internet Technologies and WEB-applications”. I’m interested in Web Development because this job provides endless opportunities for professional growth, and it has a huge community of developers, who are ready to share their knowledge. I could not wait 2 more years to start this path, so now I’m studying at RS School.</p>
+    </section>
+    <div class="main-row">
+      <section class="main-section" id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>C#</li>
+          <li>Python (Basic)</li>
+          <li>GIT, GitHub</li>
+          <li>HTML5, CSS3</li>
+        </ul>
+      </section>
+      <section class="main-section" id="education">
+        <h2>Education</h2>
+        <p>Siberian Federal University (2022 – present)</p>
+      </section>
+    </div>
+    <div class="main-row">
+      <section class="main-section" id="projects">
+        <h2>Projects</h2>
+        <p>In active development</p>
+      </section>
+      <section class="main-section" id="code">
+        <h2>Sample of code (C#)</h2>
+        <pre>
+        <code>
+// Задание случайного массива
+Random rand = new Random();
+int r = rand.Next(4, 10);
+double[,] Matrix = new double[r, r];
+
+for (int i = 0; i &lt; r; i++)
+{
+    for (int j = 0; j &lt; r; j++)
+    {
+        Matrix[i, j] = rand.Next(-100, 100) * 0.1;
+    }
+}
+        </code>
+      </pre>
+      </section>
+    </div>
+    <div class="main-row">
+      <section class="main-section" id="english">
+      <h2>English</h2>
+      <p>C2 (PROFICIENT) according to the online test at <a class="main-link" href="https://www.efset.org/cert/RFNfzd">EFSet</a></p>
+    </section>
+      <section class="main-section" id="contacts">
+        <h2>Contacts</h2>
+        <ul>
+          <li>Location: Krasnoyarsk, Russia</li>
+          <li>Phone Number: +7 923 348-65-18</li>
+          <li>Email: karpseledka@gmail.com</li>
+          <li>GitHub: <a class="main-link" href="https://github.com/KoreTeo">KoreTeo</a></li>
+          <li>Telegram: <a class="main-link" href="https://t.me/koreteo">@koreteo</a></li>
+        </ul>
+      </section>
+    </div>
+
+  </main>
+  <footer class="footer">
+    <p id="footer-info">© 2022 | GitHub: <a id="github-footer" href="https://github.com/KoreTeo">KoreTeo</a></p>
+    <a class="logo" href="https://rs.school/js/"></a>
+  </footer>
 </body>
 </html>
